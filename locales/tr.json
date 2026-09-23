@@ -1,0 +1,23 @@
+{
+    "appName": "EXACT 10",
+    "tagline": "Tam toplamı bul",
+    "target": "Hedef",
+    "score": "Puan",
+    "streak": "Seri",
+    "accuracy": "Doğruluk",
+    "settings": "Ayarlar",
+    "language": "Dil",
+    "digits": "Rakamlar",
+    "sound": "Ses",
+    "difficulty": "Zorluk",
+    "records": "Kişisel rekor",
+    "bestScore": "En iyi puan",
+    "bestStreak": "En iyi seri",
+    "avgTime": "Ortalama yanıt süresi",
+    "back": "Oyuna dön",
+    "correct": "Tam isabet!",
+    "incorrect": "Olmadı — tekrar dene.",
+    "number": "Sayı",
+    "donate": "Bağış yap",
+    "version": "Sürüm 1.0.1"
+}

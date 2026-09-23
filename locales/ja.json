@@ -1,0 +1,23 @@
+{
+    "appName": "ぴったり10",
+    "tagline": "ぴったりの合計を見つけよう",
+    "target": "目標",
+    "score": "スコア",
+    "streak": "連続正解",
+    "accuracy": "正確さ",
+    "settings": "設定",
+    "language": "言語",
+    "digits": "数字",
+    "sound": "サウンド",
+    "difficulty": "難易度",
+    "records": "自己ベスト",
+    "bestScore": "最高スコア",
+    "bestStreak": "最高連続正解",
+    "avgTime": "平均回答時間",
+    "back": "ゲームに戻る",
+    "correct": "ぴったり正解！",
+    "incorrect": "惜しい！もう一度。",
+    "number": "数字",
+    "donate": "寄付",
+    "version": "バージョン 1.0.1"
+}

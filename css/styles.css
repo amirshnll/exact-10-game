@@ -1,0 +1,390 @@
+:root {
+   color-scheme: dark;
+   font-family: system-ui, sans-serif;
+   background: #10251f;
+   color: #f7f4e9
+}
+
+* {
+   box-sizing: border-box
+}
+
+html,
+body {
+   width: 360px;
+   min-width: 360px;
+   max-width: 360px;
+   height: 600px;
+   min-height: 600px;
+   max-height: 600px;
+   overflow: hidden
+}
+
+body {
+   margin: 0
+}
+
+.app {
+   position: relative;
+   width: 360px;
+   min-width: 360px;
+   max-width: 360px;
+   padding: 18px 18px 48px;
+   height: 600px;
+   overflow: hidden;
+   background: radial-gradient(circle at top, #285c4e, #10251f 63%)
+}
+
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: start;
+   height: 64px;
+   min-height: 64px
+}
+
+header>div {
+   flex: 1;
+   min-width: 0
+}
+
+.eyebrow {
+   font-size: .75rem;
+   letter-spacing: .14em;
+   color: #f4cf69;
+   margin: 0
+}
+
+h1 {
+   height: 2.7em;
+   overflow: hidden;
+   font-size: 1.45rem;
+   margin: .2rem 0 1.1rem
+}
+
+.icon-button {
+   flex: 0 0 32px;
+   width: 32px;
+   height: 32px;
+   padding: 0;
+   border: 0;
+   background: transparent;
+   color: inherit;
+   font-size: 1.35rem;
+   cursor: pointer
+}
+
+.target-card {
+   text-align: center;
+   background: #f4cf69;
+   color: #17342e;
+   border-radius: 16px;
+   padding: 12px;
+   margin-bottom: 14px
+}
+
+.target-card span,
+.target-card small {
+   display: block;
+   font-size: .8rem
+}
+
+.target-card strong {
+   font-size: 3rem;
+   line-height: 1.08
+}
+
+.target-card small {
+   min-height: 1.2em;
+   font-weight: 700
+}
+
+.tile-grid {
+   display: grid;
+   width: 100%;
+   grid-template-columns: repeat(3, minmax(0, 1fr));
+   grid-auto-rows: 64px;
+   gap: 10px
+}
+
+.tile {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   min-width: 0;
+   height: 64px;
+   min-height: 64px;
+   max-height: 64px;
+   padding: 0;
+   border: 2px solid #76b9a7;
+   border-radius: 13px;
+   background: #173d34;
+   color: #fff;
+   font-size: 1.55rem;
+   font-weight: 800;
+   line-height: 1;
+   cursor: pointer;
+   transition: transform .14s, background .14s
+}
+
+.tile:hover,
+.tile:focus-visible {
+   outline: 3px solid #f4cf69;
+   outline-offset: 2px
+}
+
+.tile.selected {
+   background: #4b9580;
+   transform: translateY(-2px)
+}
+
+.tile.correct {
+   background: #75bb68
+}
+
+.tile.wrong {
+   background: #c95c5c
+}
+
+.feedback {
+   text-align: center;
+   min-height: 1.4em;
+   margin: .75rem 0;
+   color: #f4cf69;
+   font-weight: 650
+}
+
+.stats {
+   display: grid;
+   grid-template-columns: repeat(3, minmax(0, 1fr));
+   text-align: center;
+   border-top: 1px solid #4d776d;
+   padding-top: 12px
+}
+
+.stats span {
+   display: block;
+   color: #c8ddd4;
+   font-size: .75rem
+}
+
+.stats b {
+   font-size: 1.25rem
+}
+
+#settings label {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 14px 0;
+   gap: 12px
+}
+
+select {
+   max-width: 180px;
+   padding: 8px;
+   border-radius: 8px;
+   border: 1px solid #76b9a7;
+   background: #173d34;
+   color: #fff
+}
+
+.records {
+   border-top: 1px solid #4d776d;
+   margin-top: 20px
+}
+
+.records p {
+   display: grid;
+   grid-template-columns: max-content max-content 1fr;
+   align-items: center;
+   column-gap: 0
+}
+
+.records p b {
+   grid-column: 3;
+   justify-self: end
+}
+
+.records p b {
+   text-align: right;
+   min-width: 2.5em
+}
+
+.secondary {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   min-width: 0;
+   padding: 11px;
+   border-radius: 9px;
+   border: 1px solid #f4cf69;
+   background: transparent;
+   color: #f4cf69;
+   font-weight: 700;
+   line-height: 1.25;
+   cursor: pointer
+}
+
+[dir="rtl"] .app {
+   text-align: right
+}
+
+@media(prefers-reduced-motion:reduce) {
+   .tile {
+      transition: none
+   }
+}
+
+@media(forced-colors:active) {
+   .tile {
+      border: 2px solid CanvasText
+   }
+
+   .tile.selected {
+      outline: 3px solid Highlight
+   }
+}
+
+.extension-meta {
+   position: absolute;
+   left: 18px;
+   right: 18px;
+   bottom: 14px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 8px;
+   font-size: 12px;
+   direction: ltr;
+   unicode-bidi: isolate;
+   opacity: .8
+}
+
+.extension-meta a {
+   color: inherit;
+   text-decoration: none
+}
+
+.extension-meta a:hover {
+   text-decoration: underline
+}
+
+@font-face {
+   font-family: 'Vazirmatn';
+   src: url('../font/Vazirmatn.woff2') format('woff2');
+   font-style: normal;
+   font-weight: 100 900;
+   font-display: swap
+}
+
+html[lang='fa'],
+html[lang='ar'] {
+   font-family: 'Vazirmatn', sans-serif
+}
+
+html[lang='fa'] button,
+html[lang='fa'] input,
+html[lang='fa'] select,
+html[lang='fa'] textarea,
+html[lang='ar'] button,
+html[lang='ar'] input,
+html[lang='ar'] select,
+html[lang='ar'] textarea {
+   font-family: inherit
+}
+
+html[lang='fa'] body,
+html[lang='fa'] button,
+html[lang='fa'] input,
+html[lang='fa'] select,
+html[lang='fa'] textarea {
+   font-family: 'Vazirmatn', sans-serif !important
+}
+
+html.fa-font,
+html.fa-font body,
+html.fa-font button,
+html.fa-font input,
+html.fa-font select,
+html.fa-font textarea {
+   font-family: 'Vazirmatn', sans-serif !important
+}
+
+html[lang="fa"] body,
+html[lang="ar"] body,
+html[lang="fa"] button,
+html[lang="ar"] button,
+html[lang="fa"] input,
+html[lang="ar"] input,
+html[lang="fa"] select,
+html[lang="ar"] select,
+html[lang="fa"] textarea,
+html[lang="ar"] textarea {
+   font-family: "Vazirmatn", sans-serif !important
+}
+
+h1 {
+   font-size: 1.2rem;
+   margin: .2rem 0 .55rem;
+   line-height: 1.35
+}
+
+.target-card {
+   padding: 8px;
+   margin-bottom: 8px
+}
+
+.target-card strong {
+   font-size: 2.55rem
+}
+
+.tile-grid {
+   grid-auto-rows: 54px;
+   gap: 7px
+}
+
+.tile {
+   height: 54px;
+   min-height: 54px;
+   max-height: 54px;
+   font-size: 1.4rem
+}
+
+.feedback {
+   height: 1.75em;
+   min-height: 1.75em;
+   margin: .35rem 0;
+   overflow: hidden
+}
+
+.secondary {
+   height: 36px;
+   min-height: 36px;
+   max-height: 36px;
+   padding: 0 8px
+}
+
+.stats {
+   padding-top: 7px
+}
+
+.stats b {
+   font-size: 1.1rem
+}
+
+html[lang="fa"] #game {
+   margin-top: 24px
+}
+
+html[lang="fa"] #settings label,
+html[lang="ar"] #settings label {
+   margin: 8px 0
+}
+
+html[lang="fa"] #settings .records,
+html[lang="ar"] #settings .records {
+   margin-top: 12px
+}

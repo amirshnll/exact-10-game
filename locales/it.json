@@ -1,0 +1,23 @@
+{
+    "appName": "ESATTO 10",
+    "tagline": "Trova la somma esatta",
+    "target": "Obiettivo",
+    "score": "Punteggio",
+    "streak": "Serie",
+    "accuracy": "Precisione",
+    "settings": "Impostazioni",
+    "language": "Lingua",
+    "digits": "Cifre",
+    "sound": "Suono",
+    "difficulty": "Difficoltà",
+    "records": "Record personale",
+    "bestScore": "Miglior punteggio",
+    "bestStreak": "Migliore serie",
+    "avgTime": "Tempo medio di risposta",
+    "back": "Torna al gioco",
+    "correct": "Esattamente giusto!",
+    "incorrect": "Non proprio — riprova.",
+    "number": "Numero",
+    "donate": "Dona",
+    "version": "Versione 1.0.1"
+}

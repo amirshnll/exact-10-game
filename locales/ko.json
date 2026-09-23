@@ -1,0 +1,23 @@
+{
+    "appName": "정확히 10",
+    "tagline": "정확한 합을 찾으세요",
+    "target": "목표",
+    "score": "점수",
+    "streak": "연속",
+    "accuracy": "정확도",
+    "settings": "설정",
+    "language": "언어",
+    "digits": "숫자",
+    "sound": "소리",
+    "difficulty": "난이도",
+    "records": "개인 최고 기록",
+    "bestScore": "최고 점수",
+    "bestStreak": "최고 연속 기록",
+    "avgTime": "평균 응답 시간",
+    "back": "게임으로 돌아가기",
+    "correct": "정확히 맞았어요!",
+    "incorrect": "조금 아쉬워요 — 다시 해보세요.",
+    "number": "숫자",
+    "donate": "후원",
+    "version": "버전 1.0.1"
+}

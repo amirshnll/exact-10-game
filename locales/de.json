@@ -1,0 +1,23 @@
+{
+    "appName": "EXACT 10",
+    "tagline": "Finde die exakte Summe",
+    "target": "Ziel",
+    "score": "Punkte",
+    "streak": "Serie",
+    "accuracy": "Genauigkeit",
+    "settings": "Einstellungen",
+    "language": "Sprache",
+    "digits": "Ziffern",
+    "sound": "Ton",
+    "difficulty": "Schwierigkeit",
+    "records": "Persönliche Bestwerte",
+    "bestScore": "Beste Punktzahl",
+    "bestStreak": "Beste Serie",
+    "avgTime": "Durchschnittliche Antwortzeit",
+    "back": "Zurück zum Spiel",
+    "correct": "Genau richtig!",
+    "incorrect": "Nicht ganz — versuche es erneut.",
+    "number": "Zahl",
+    "donate": "Spenden",
+    "version": "Version 1.0.1"
+}

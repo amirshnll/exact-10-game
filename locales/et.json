@@ -1,0 +1,23 @@
+{
+    "appName": "TÄPSELT 10",
+    "tagline": "Leia täpne summa",
+    "target": "Eesmärk",
+    "score": "Punktid",
+    "streak": "Seeria",
+    "accuracy": "Täpsus",
+    "settings": "Seaded",
+    "language": "Keel",
+    "digits": "Numbrid",
+    "sound": "Heli",
+    "difficulty": "Raskusaste",
+    "records": "Isiklik rekord",
+    "bestScore": "Parim tulemus",
+    "bestStreak": "Parim seeria",
+    "avgTime": "Keskmine vastamisaeg",
+    "back": "Tagasi mängu",
+    "correct": "Täpselt õige!",
+    "incorrect": "Mitte päris — proovi uuesti.",
+    "number": "Arv",
+    "donate": "Anneta",
+    "version": "Versioon 1.0.1"
+}

@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Exact 10</title>
+</head>
+
+<body>
+    <main class="app">
+        <header>
+            <div>
+                <p class="eyebrow" data-i18n="appName">EXACT 10</p>
+                <h1 data-i18n="tagline">Find the exact sum</h1>
+            </div><button id="settingsButton" class="icon-button" aria-label="Settings">⚙</button>
+        </header>
+        <section id="game" aria-live="polite">
+            <div class="target-card"><span data-i18n="target">Target</span><strong id="targetValue">10</strong><small
+                    id="equation" aria-live="assertive"></small></div>
+            <div id="tileGrid" class="tile-grid" role="group" aria-label="Number tiles"></div>
+            <p id="feedback" class="feedback" aria-live="assertive"></p><button id="resetGameButton" class="secondary"
+                data-i18n="resetGame">Reset game</button>
+            <section class="stats" aria-label="Game statistics">
+                <div><span data-i18n="score">Score</span><b id="score">0</b></div>
+                <div><span data-i18n="streak">Streak</span><b id="streak">0</b></div>
+                <div><span data-i18n="accuracy">Accuracy</span><b id="accuracy">—</b></div>
+            </section>
+        </section>
+        <section id="settings" hidden>
+            <h2 data-i18n="settings">Settings</h2><label><span data-i18n="language">Language</span><select
+                    id="language"></select></label><label><span data-i18n="digits">Digits</span><select id="digitStyle">
+                    <option value="latin">Latin 123</option>
+                    <option value="persian">فارسی ۱۲۳</option>
+                    <option value="arabic">العربية ١٢٣</option>
+                </select></label><label><span data-i18n="sound">Sound</span><input id="sound"
+                    type="checkbox"></label><label><span data-i18n="difficulty">Difficulty</span><select
+                    id="difficulty">
+                    <option value="beginner">Beginner</option>
+                    <option value="adaptive">Adaptive</option>
+                </select></label>
+            <section class="records">
+                <h3 data-i18n="records">Personal best</h3>
+                <p><span data-i18n="bestScore">Best score</span><span class="record-separator"
+                        aria-hidden="true">:</span><b id="bestScore">0</b></p>
+                <p><span data-i18n="bestStreak">Best streak</span><span class="record-separator"
+                        aria-hidden="true">:</span><b id="bestStreak">0</b></p>
+                <p><span data-i18n="avgTime">Average response time</span><span class="record-separator"
+                        aria-hidden="true">:</span><b id="avgTime">—</b></p>
+            </section><button id="backButton" class="secondary" data-i18n="back">Back to game</button>
+        </section>
+        <div class="extension-meta"><a href="https://ashokri.com/donate/" target="_blank" rel="noopener noreferrer"
+                data-i18n="donate">Donate</a><span aria-hidden="true">-</span><span data-i18n="version">Version
+                1.0.1</span></div>
+    </main>
+    <script type="module" src="js/popup.js"></script>
+</body>
+
+</html>

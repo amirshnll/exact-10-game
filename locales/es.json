@@ -1,0 +1,23 @@
+{
+    "appName": "EXACT 10",
+    "tagline": "Encuentra la suma exacta",
+    "target": "Objetivo",
+    "score": "Puntos",
+    "streak": "Racha",
+    "accuracy": "Precisión",
+    "settings": "Ajustes",
+    "language": "Idioma",
+    "digits": "Dígitos",
+    "sound": "Sonido",
+    "difficulty": "Dificultad",
+    "records": "Mejor marca",
+    "bestScore": "Mejor puntuación",
+    "bestStreak": "Mejor racha",
+    "avgTime": "Tiempo medio de respuesta",
+    "back": "Volver al juego",
+    "correct": "¡Exactamente correcto!",
+    "incorrect": "No es correcto — inténtalo de nuevo.",
+    "number": "Número",
+    "donate": "Donar",
+    "version": "Versión 1.0.1"
+}

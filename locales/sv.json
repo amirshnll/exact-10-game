@@ -1,0 +1,23 @@
+{
+    "appName": "EXAKT 10",
+    "tagline": "Hitta den exakta summan",
+    "target": "Mål",
+    "score": "Poäng",
+    "streak": "Svit",
+    "accuracy": "Träffsäkerhet",
+    "settings": "Inställningar",
+    "language": "Språk",
+    "digits": "Siffror",
+    "sound": "Ljud",
+    "difficulty": "Svårighetsgrad",
+    "records": "Personbästa",
+    "bestScore": "Bästa poäng",
+    "bestStreak": "Bästa svit",
+    "avgTime": "Genomsnittlig svarstid",
+    "back": "Tillbaka till spelet",
+    "correct": "Precis rätt!",
+    "incorrect": "Inte riktigt — försök igen.",
+    "number": "Tal",
+    "donate": "Donera",
+    "version": "Version 1.0.1"
+}

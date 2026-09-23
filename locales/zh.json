@@ -1,0 +1,23 @@
+{
+    "appName": "精确 10",
+    "tagline": "找出准确的和",
+    "target": "目标",
+    "score": "得分",
+    "streak": "连胜",
+    "accuracy": "准确率",
+    "settings": "设置",
+    "language": "语言",
+    "digits": "数字",
+    "sound": "声音",
+    "difficulty": "难度",
+    "records": "个人最佳",
+    "bestScore": "最高得分",
+    "bestStreak": "最高连胜",
+    "avgTime": "平均答题时间",
+    "back": "返回游戏",
+    "correct": "完全正确！",
+    "incorrect": "还不对，再试一次。",
+    "number": "数字",
+    "donate": "捐赠",
+    "version": "版本 1.0.1"
+}
