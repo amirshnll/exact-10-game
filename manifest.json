@@ -24,7 +24,7 @@
   ],
   "browser_specific_settings": {
     "gecko": {
-      "id": "exact10@ashokri.com",
+      "id": "exact10@example.com",
       "data_collection_permissions": {
         "required": [
           "none"
